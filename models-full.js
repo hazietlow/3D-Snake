@@ -24,7 +24,10 @@ fruitNames.forEach(name => {
 
 const loader = new T.TextureLoader();
 
-
+/*
+ * The snake texture is labeled under creative commons,
+ * I found it here: https://www.publicdomainpictures.net/cn/view-image.php?image=36033&picture=
+ */
 const snakeTexture = loader.load("./snakeScales.png");
 
 
